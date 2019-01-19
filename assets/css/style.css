@@ -51,7 +51,7 @@ nav ul li a {
     border-right: 2px solid #4aaaa5;
     text-decoration: none;
 }
-
+/* CODE TO REMOVE | STYLING FROM RIGHT END OF NAV BAR*/
 nav ul li:last-child a {
     border-right: none;
     padding-right: none;
@@ -71,7 +71,7 @@ footer {
     padding: 40px;
     margin-top: 30px;
 }
-
+/* STYLING FOR CONTACT PAGE INPUT BOX*/
 label {
     font-size: 18px;
     display: block;
@@ -98,18 +98,18 @@ form button {
     font-size: 18px;
     border: 1px solid rgb(4, 87, 119);
 }
-
+/*END OF INPUT BOX STYLING*/
 .inline-img {
     float: left;
     margin: 0 15px 10px 0;
     border: 3px solid #111;
 }
-
+/*SETS MARGINS IN PLACE FOR CONTENT ON PAGES*/
 .wrapper {
     width: 960px;
     margin: 0 auto;
 }
-
+/*^^^^^^*/
 .clearfix {
     display: block;
     clear: both;
@@ -135,7 +135,7 @@ form button {
     bottom: 15px;
 
 }
-
+/*SPECIFICITY IGNORES FLOAT LEFT TO FLOAT ALL EVENS TO THE RIGHT TO STYLE THE PORTFOLIO BOX CORRECTLY*/
 .portfolio-item:nth-of-type(even) {
     float: right;
 }
